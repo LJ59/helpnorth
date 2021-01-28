@@ -363,6 +363,20 @@
     <script src="https://kendo.cdn.telerik.com/2017.2.621/js/jquery.min.js"></script>
     <script src="https://kendo.cdn.telerik.com/2017.2.621/js/jszip.min.js"></script>
     <script src="https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js"></script>
+    <!--Template pour export pdf-->
+    <script type="x/kendo-template" id="page-template">
+        <div class="page-template">
+            <div class="header">
+                <!--Logo-->
+                <img class="logo" src="https://communication.lenord.fr/fr/gallery/13074/images/lowres/cd33d96cfde343159adf490b7c44ba99.png" alt="Nord, le Département est là">
+                <h2>aidants</h2>
+            </div>
+            <div class="footer" style="text-align: center">
+                <h2>Nord aidants</h2>
+                <h3> #:pageNum# </h3>
+            </div>
+        </div>
+    </script>
     <script>
         window.dataLayer = window.dataLayer || [];
 

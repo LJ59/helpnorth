@@ -14,10 +14,10 @@
             line-height: 1.75rem;
             color: #17323f;
         }
-
+        
         header {
             text-align: center;
-            background:linear-gradient(to bottom, transparent,68%, #021720), url(../img/aidantaccueil.jpg) no-repeat center;
+            background: linear-gradient(to bottom, transparent, 68%, #021720), url(../img/aidantaccueil.jpg) no-repeat center;
             background-size: cover;
             width: auto;
             height: 100%;
@@ -29,19 +29,19 @@
             align-items: center;
             justify-content: center;
         }
-
-        .vertical{
-            max-width:50%;
+        
+        .vertical {
+            max-width: 50%;
         }
-       
+        
         h1 {
-          color: #FFFFFF;
-          text-align: center;
-          font-size: 3em;
-          line-height: 1.25em;
-          /*margin: 0em 1em;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 3em;
+            line-height: 1.25em;
+            /*margin: 0em 1em;
           padding: 0.25em 1em;*/
-          text-shadow: 1px 0px 7px rgba(23,50,50,0.75);
+            text-shadow: 1px 0px 7px rgba(23, 50, 50, 0.75);
         }
         
         h1 img {
@@ -49,19 +49,19 @@
             min-width: 280px;
             margin: 2rem 0px 0px 0px;
         }
-
-        .logo{
-             width: auto;
-             height: 5em;
+        
+        .logo {
+            width: auto;
+            height: 5em;
         }
-
+        
         .sstitre {
             font-size: 1.5em;
             font-weight: 700;
             margin: 0em;
             color: #ffffff;
             line-height: 1.5em;
-            text-shadow: 1px 0px 7px rgba(23,50,50,0.75);
+            text-shadow: 1px 0px 7px rgba(23, 50, 50, 0.75);
         }
         
         h2 {
@@ -77,22 +77,22 @@
             font-size: 2.5rem;
             font-weight: 900;
         }
-
-        h3{
+        
+        h3 {
             margin-top: 1.5em;
             font-size: 1.50em;
-            color:#175d79;
+            color: #175d79;
             line-height: 1.45em;
             margin-bottom: -0.5em;
         }
-
-        h4{
-           font-size: 1.10em;
-           color: #17323f;
-           margin-top: 1.75em;
-           line-height: 1.5em;
-           margin-bottom: -0.75em;
-           }
+        
+        h4 {
+            font-size: 1.10em;
+            color: #17323f;
+            margin-top: 1.75em;
+            line-height: 1.5em;
+            margin-bottom: -0.75em;
+        }
         
         a {
             color: #006487;
@@ -101,9 +101,9 @@
         a:hover {
             text-decoration: none;
         }
-
-        a:focus {      
-            text-decoration: none 
+        
+        a:focus {
+            text-decoration: none
         }
         
         a:visited {
@@ -135,21 +135,21 @@
             bottom: 2rem;
             margin-left: -40px;
             transition: background 0.25s ease-in-out;
-           -webkit-transition: background 0.25s ease-in-out;
+            -webkit-transition: background 0.25s ease-in-out;
             box-shadow: 0px 2px 10px -2px rgba(0, 0, 0, 0.55);
-           border-radius: 100px;
+            border-radius: 100px;
         }
-
+        
         .menubouton:hover {
             background: url(../img/Menu_On.svg) no-repeat center center;
             transition: background 0.25s ease-in-out;
-           -webkit-transition: background 0.25s ease-in-out;
+            -webkit-transition: background 0.25s ease-in-out;
         }
-
+        
         .fermeture {
-           text-align: center;
-           position: sticky;
-           margin-left: -3em;
+            text-align: center;
+            position: sticky;
+            margin-left: -3em;
         }
         
         .fermer:hover {
@@ -160,45 +160,48 @@
             max-width: 700px;
             margin: 0 auto;
         }
-
-        .contenu li{
-           margin-left: -1em;
-           color: #17323f;
-           margin-top: 0.5em;
-           margin-bottom: 0.5em;
+        
+        .contenu li {
+            margin-left: -1em;
+            color: #17323f;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
         }
-
+        
         .contenu a::after {
             content: url(../img/lien_externe.svg);
             display: inline-block;
             width: 0.8rem;
             padding-left: 4px;
         }
-
+        
         .contenu a:visited::after {
             content: url(../img/lien_externev.svg);
             display: inline-block;
             width: 0.8rem;
             padding-left: 4px;
         }
-
+        
         .exergue {
             background: #ECF4F7;
             padding: 1.5em 2em;
         }
-
-        .tableau, th, td{
+        
+        .tableau,
+        th,
+        td {
             border-collapse: collapse;
             border: 4px solid #ECF4F7;
             padding: 1em;
         }
-
+        
         .tdentre {
             background-color: #60c6f2;
-            font-weight: 500;color: #17323F;
+            font-weight: 500;
+            color: #17323F;
             padding: 1em;
         }
-
+        
         caption {
             margin: 2em 0.25em 0.5em;
             color: #17323f;
@@ -206,15 +209,15 @@
             text-align: left;
             font-size: 1.10em;
         }
-
-        th{
+        
+        th {
             background-color: #175d79;
-            color:#FFFFFF;
-            }
-
-        td{
+            color: #FFFFFF;
+        }
+        
+        td {
             background-color: #ffffff;
-            }
+        }
         
         main img {
             padding-top: 1em;
@@ -224,88 +227,85 @@
         
         .couleurfond1 {
             padding: 5rem 8%;
-
         }
         
         .couleurfond2 {
             padding: 5rem 8%;
             background-color: #ECF4F7;
         }
-
-/* Pour des iframes bien responsives !*/
-    .video{
-          position: relative; 
-          padding-top: 56.25%; 
-          margin-bottom: 1em;
-          margin-top: 2em;
-    }
-
-    .videoframe{
-          position: absolute; 
-          top: 0; 
-          left: 0; 
-          width: 100%; 
-          height: 100%; 
-          border: 0; 
-    }
-
-    /*Liste avec icones survolables*/
-
-    .listnobullet li {
-    height:3.5em;
-    display:inline-grid;
-    }
-
-    .listnobullet a{
-      padding-top:1em  
-    }
-
-    .lienpdf {
-    list-style-type: none;
-    background-image: url(../img/Bouton_Pdf_Off.svg);
-    background-repeat: no-repeat;
-    margin-bottom: 2em;
-    background-position: em -0.15em;
-    padding-left: 4.5em;
-    }
-
-    .lienpdf:hover{
-    background-image: url(../img/Bouton_Pdf_On.svg);
-    }
-
-    .ninfo{
-    list-style-type: none;
-    background-image: url(../img/Bouton_Pdf_Off.svg);
-    background-repeat: no-repeat;
-    margin-bottom: 2em;
-    background-position: em -0.15em;
-    padding-left: 4.5em;
-    }
-
-    .ninfo:hover{
-    background-image: url(../img/Bouton_Pdf_On.svg);
-    }
-
-
-       .outils li{
-            list-style:none;
+        /* Pour des iframes bien responsives !*/
+        
+        .video {
+            position: relative;
+            padding-top: 56.25%;
+            margin-bottom: 1em;
+            margin-top: 2em;
+        }
+        
+        .videoframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        /*Liste avec icones survolables*/
+        
+        .listnobullet li {
+            height: 3.5em;
+            display: inline-grid;
+        }
+        
+        .listnobullet a {
+            padding-top: 1em
+        }
+        
+        .lienpdf {
+            list-style-type: none;
+            background-image: url(../img/Bouton_Pdf_Off.svg);
+            background-repeat: no-repeat;
+            margin-bottom: 2em;
+            background-position: em -0.15em;
+            padding-left: 4.5em;
+        }
+        
+        .lienpdf:hover {
+            background-image: url(../img/Bouton_Pdf_On.svg);
+        }
+        
+        .ninfo {
+            list-style-type: none;
+            background-image: url(../img/Bouton_Pdf_Off.svg);
+            background-repeat: no-repeat;
+            margin-bottom: 2em;
+            background-position: em -0.15em;
+            padding-left: 4.5em;
+        }
+        
+        .ninfo:hover {
+            background-image: url(../img/Bouton_Pdf_On.svg);
+        }
+        
+        .outils li {
+            list-style: none;
             text-align: center;
             padding-bottom: 0.5em;
             margin-left: -1.9em;
         }
-
-        .outils button{
+        
+        .outils button {
             text-decoration: underline;
         }
-
-        .outils button:hover{
+        
+        .outils button:hover {
             text-decoration: none;
         }
-
-        .outils button:focus{
-            text-decoration: none 
+        
+        .outils button:focus {
+            text-decoration: none
         }
-
+        
         .outils li::before {
             content: "\200B";
         }
@@ -320,12 +320,13 @@
         .nordinfo a {
             color: #60c6f2;
         }
-
+        
         .nordinfo a::after {
             content: url(../img/lien_externen.svg);
             display: inline-block;
             width: 0.8rem;
-            padding-left: 8px;}
+            padding-left: 8px;
+        }
         
         .nordinfo :hover {
             color: #ffffff;
@@ -338,7 +339,7 @@
         footer {
             background-color: #139fc6;
         }
-              
+        
         footer img {
             width: 15rem;
             height: 6rem;
@@ -361,8 +362,8 @@
             align-items: center;
             margin: 1em 0;
         }
-
-        .footcontact p{
+        
+        .footcontact p {
             color: #021720;
         }
         
@@ -374,28 +375,26 @@
             background-color: #ffffff;
             text-align: center;
             padding: 1rem;
-           /* margin-bottom: 9em;*/
+            /* margin-bottom: 9em;*/
         }
-
+        
         .footfooter button {
-            text-decoration:underline;
+            text-decoration: underline;
             color: #17323f;
         }
         
         .footfooter button:hover {
-            text-decoration:none;
+            text-decoration: none;
         }
-
+        
         .footfooter button:focus {
-            text-decoration: none 
+            text-decoration: none
         }
-
+        
         .erreur {
-           text-align: center;
-           padding: 3em 0 10em 0;
+            text-align: center;
+            padding: 3em 0 10em 0;
         }
-
-
         /*modale*/
         
         .c-dialog {
@@ -414,68 +413,68 @@
             backdrop-filter: blur(8px);
             -webkit-backdrop-filter: blur(8px);
         }
-
-        .c-dialog button{
+        
+        .c-dialog button {
             position: fixed;
             bottom: 2rem;
-           z-index: 99;
-           height: 5rem;
+            z-index: 99;
+            height: 5rem;
             width: 5rem;
-           background: url(../img/Fermer_Off.svg) no-repeat center center;
-           transition: background 0.25s ease-in-out;
-           -webkit-transition: background 0.25s ease-in-out;
+            background: url(../img/Fermer_Off.svg) no-repeat center center;
+            transition: background 0.25s ease-in-out;
+            -webkit-transition: background 0.25s ease-in-out;
             box-shadow: 0px 2px 10px -2px rgba(0, 0, 0, 0.55);
             border-radius: 100px;
         }
-
-        .c-dialog button:hover{
-           background: url(../img/Fermer_On.svg) no-repeat center center;
-           transition: background 0.25s ease-in-out;
-           -webkit-transition: background 0.25s ease-in-out;
+        
+        .c-dialog button:hover {
+            background: url(../img/Fermer_On.svg) no-repeat center center;
+            transition: background 0.25s ease-in-out;
+            -webkit-transition: background 0.25s ease-in-out;
         }
-                
+        
         .c-dialog__box {
             flex: 1;
             max-width: 93rem;
             margin: auto;
         }
-
+        
         .c-dialog__box ul {
-           /**display: flex;
+            /**display: flex;
            flex-wrap: wrap;
            justify-content: space-evenly;**/
-           list-style:none;
-           padding-inline-start: 0px;
-           text-align:center;
+            list-style: none;
+            padding-inline-start: 0px;
+            text-align: center;
         }
-
+        
         .c-dialog__box li {
-           margin: 1em;
+            margin: 1em;
         }
-
+        
         .c-dialog__box a {
-          color: #17323f;
-          background-color: #ECF4F7;
-          text-decoration: none;
-          /**height: 4em;**/
-          display: inline-block;
-          width: 22em;
-          font-weight: 600;
-          padding: 1em;
-          box-shadow: 1px 6px 10px -2px rgba(0, 0, 0, 0.15);
-          border-radius: 2em;
+            color: #17323f;
+            background-color: #ECF4F7;
+            text-decoration: none;
+            /**height: 4em;**/
+            display: inline-block;
+            width: 22em;
+            font-weight: 600;
+            padding: 1em;
+            box-shadow: 1px 6px 10px -2px rgba(0, 0, 0, 0.15);
+            border-radius: 2em;
         }
-
+        
         .c-dialog__box a:hover {
-           background-color: #60c6f2;
-           text-decoration:underline;
+            background-color: #60c6f2;
+            text-decoration: underline;
         }
         
         .c-dialog[aria-hidden="true"] {
             visibility: hidden;
             opacity: 0;
         }
-
+        
         .contenumodale {
             display: block;
             margin: 2em;
@@ -484,7 +483,6 @@
             border-radius: 2rem;
             box-shadow: 1px 6px 10px -2px rgba(0, 0, 0, 0.15);
         }
-
         /* Bouton scroll to top */
         
         #BacktoTop {
@@ -508,103 +506,102 @@
             transition: background 0.25s ease-in-out;
             -webkit-transition: background 0.25s ease-in-out;
         }
-
         /* BASCULES */
-
-
-    @media only screen and (max-width: 1200px) {
-        h1 img {
-            min-width:204px;
+        
+        @media only screen and (max-width: 1200px) {
+            h1 img {
+                min-width: 204px;
+            }
+            h1 {
+                font-size: 3em;
+            }
         }
-        h1{
-            font-size:3em;
-        }
-
-   }
-    
-
-    @media only screen and (max-width: 768px) {
-      /* .menubouton {
+        
+        @media only screen and (max-width: 768px) {
+            /* .menubouton {
              display: none;
             }*/
-        .imagefond {
-            margin-bottom: 0em;
+            .imagefond {
+                margin-bottom: 0em;
             }
-        .nordinfo {
-            padding: 3rem;
+            .nordinfo {
+                padding: 3rem;
+            }
+            /*tableaux responsive*/
+            table {
+                width: 100%;
+            }
+            table thead {
+                display: none;
+            }
+            table tr {
+                display: block;
+            }
+            table td {
+                display: block;
+            }
+            table td:before {
+                content: attr(data-label);
+                font-weight: 700;
+                margin-bottom: 0.5em;
+                display: block;
+            }
+            /* fin tableau responsive */
         }
-
-	    /*tableaux responsive*/
-
-        table {
-            width:100%;
-        }
-
-        table thead {
-            display: none;
-        } 
-
-        table tr{
-            display: block;
-        }
-
-        table td {
-            display: block;
-        }
-
-        table td:before {
-            content: attr(data-label);
-            font-weight: 700;
-            margin-bottom:0.5em;
-            display:block;
-        }
-
-        /* fin tableau responsive */
-    }
-
-    @media only screen and (max-width: 878px) {
-
+        /*template PDF*/
         
-        h1{
-            font-size:2em;
+        .page-template>* {
+            position: absolute;
+            left: 20px;
+            right: 20px;
+            font-size: 90%;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+        }
+        
+        .page-template .header {
+            top: 20px;
+            border-bottom: 0px solid #000;
+        }
+        
+        .page-template .footer {
+            bottom: 20px;
+            border-top: 0px solid #000;
+        }
+        
+        @media only screen and (max-width: 878px) {
+            h1 {
+                font-size: 2em;
             }
-
-        .logo{
-            height:3em;
+            .logo {
+                height: 3em;
+            }
+            .c-dialog__box a {
+                /* height: 5em; */
+                /* width: auto; */
+                text-align: center;
+                margin-top: 0px;
+                padding: 0.5em;
+            }
+            .sstitre {
+                font-size: 1em;
+            }
+            .c-dialog {
+                display: block;
+            }
+            .fermeture {
+                margin-left: -4em;
+            }
         }
-
-        .c-dialog__box a {
-         /* height: 5em; */
-         /* width: auto; */
-         text-align: center;
-         margin-top: 0px;
-         padding: 0.5em;
+        
+        @media only screen and (max-width: 499px) {
+            footer img {
+                margin: 2em 0px 0px 0px;
+                padding: 0;
+            }
+            .c-dialog__box a {
+                font-size: 0.75em;
+                display: table-cell;
+                padding: 0.5em;
+            }
         }
-    
-        .sstitre {
-         font-size: 1em;
-        }
-     
-    
-        .c-dialog{
-         display:block;
-       }
-      
-       .fermeture {
-         margin-left: -4em;
-       }
-    }
-
-    @media only screen and (max-width: 499px) {
-        footer img {
-        margin: 2em 0px 0px 0px;
-        padding: 0;
-       }
-
-         .c-dialog__box a {
-         font-size: 0.75em;
-         display: table-cell;
-         padding: 0.5em;
-        }
-    }
-      
