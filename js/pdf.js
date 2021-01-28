@@ -12,8 +12,8 @@ window.onload = function() {
                 kendo.drawing.pdf.saveAs(group, "le_nord_aide_les_aidants.pdf")
             });
         kendo.pdf.defineFont({
-            // "Arial": "https://cdn.kendostatic.com/2017.2.621/styles/fonts/Arial/Arial.ttf"
-            "DejaVu Sans": "http://cdn.kendostatic.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans.ttf"
+            "Arial": "https://cdn.kendostatic.com/2017.2.621/styles/fonts/Arial/Arial.ttf"
+                //"DejaVu Sans": "http://cdn.kendostatic.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans.ttf"
         });
 
     })
