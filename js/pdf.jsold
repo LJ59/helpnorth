@@ -1,0 +1,39 @@
+// window.onload = function() {
+//     document.getElementById('generePDF').addEventListener('click', () => {
+//         const imprime = this.document.getElementById('imprime');
+//         var opt = {
+//             margin: 1,
+//             filename: 'Le_Nord_aide_les_aidants.pdf',
+//             pagebreak: { mode: 'avoid-all', before: '#engagement1' },
+//             image: { type: 'jpeg', quality: 0.98 },
+//             enableLinks: 'true',
+//             html2canvas: { scale: 2 },
+//             jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+//         };
+//         html2pdf().from(imprime).set(opt).save();
+
+//     })
+
+// }
+
+document.getElementById('generePDF').addEventListener('click', async event => {
+    if (!navigator.clipboard) {
+        // Clipboard API non disponible
+        return
+    }
+    const imprime = this.document.getElementById('imprime');
+    try {
+        var opt = {
+            margin: 1,
+            filename: 'Le_Nord_aide_les_aidants.pdf',
+            pagebreak: { mode: 'avoid-all', before: '#engagement1' },
+            image: { type: 'jpeg', quality: 0.98 },
+            enableLinks: 'true',
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+        };
+        html2pdf().from(imprime).set(opt).save();
+    } catch (err) {
+        console.error('Echec de la generation du pdf', err)
+    }
+})
