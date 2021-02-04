@@ -22,7 +22,7 @@ const open = function(dialog) {
     dialog.setAttribute('aria-hidden', false);
     doc.setAttribute('aria-hidden', true);
 
-    // return if no focusable element
+    // On sort si on ne peut pas donner le focus
     if (!firstFocusableElement) {
         return;
     }
@@ -30,7 +30,7 @@ const open = function(dialog) {
     window.setTimeout(() => {
         firstFocusableElement.focus();
 
-        // trapping focus inside the dialog
+        // on attrappe le focus dans la modale
         focusableElements.forEach((focusableElement) => {
             if (focusableElement.addEventListener) {
                 focusableElement.addEventListener('keydown', (event) => {
@@ -61,7 +61,7 @@ const close = function(dialog, trigger) {
     dialog.setAttribute('aria-hidden', true);
     doc.setAttribute('aria-hidden', false);
 
-    // restoring focus
+    // retour du  focus
     trigger.focus();
 };
 
@@ -69,7 +69,7 @@ triggers.forEach((trigger) => {
     const dialog = document.getElementById(trigger.getAttribute('aria-controls'));
     const dismissTriggers = dialog.querySelectorAll('[data-dismiss]');
 
-    // open dialog
+    // ouverture de la modale
     trigger.addEventListener('click', (event) => {
         event.preventDefault();
 
@@ -84,7 +84,7 @@ triggers.forEach((trigger) => {
         }
     });
 
-    // close dialog
+    // fermeture de la modale
     dialog.addEventListener('keydown', (event) => {
         if (event.which === keyCodes.escape) {
             close(dialog, trigger);
@@ -107,7 +107,7 @@ triggers.forEach((trigger) => {
         }
     });
 
-    //lolo pour fermer la modale au click sur un lien de la modale
+    //pour fermer la modale au click sur un lien de la modale
 
     dialog.addEventListener("click", function() {
         document.getElementById("dialog").setAttribute('aria-hidden', true);
@@ -115,15 +115,15 @@ triggers.forEach((trigger) => {
 
 });
 
-//lolo pour cacher le bouton menu au scroll de fin de page
+//pour cacher le bouton menu au scroll de fin de page
 addEventListener("scroll", function() {
 
     if ((document.body.scrollHeight - pageYOffset) === innerHeight) {
-        //si t'es en bas de la page
+        //si tu es en bas de la page
         document.querySelector('.menubouton').style.visibility = "hidden"
     } else {
         document.querySelector('.menubouton').style.visibility = "visible";
     }
 
-    
+
 });
