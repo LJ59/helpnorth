@@ -17,7 +17,7 @@
         
         header {
             text-align: center;
-            background: linear-gradient(to bottom, transparent, 68%, #021720), url(../img/aidantaccueil.jpg) no-repeat center;
+            background: linear-gradient(to bottom, transparent, 44%, #021720), url(../img/aidantaccueil.jpg) no-repeat center;
             background-size: cover;
             width: auto;
             height: 100%;
@@ -138,6 +138,7 @@
             -webkit-transition: background 0.25s ease-in-out;
             box-shadow: 0px 2px 10px -2px rgba(0, 0, 0, 0.55);
             border-radius: 100px;
+            z-index: 10;
         }
         
         .menubouton:hover {
@@ -253,20 +254,20 @@
         /*Liste avec icones survolables*/
         
         .listnobullet li {
-            height: 3.5em;
             display: inline-grid;
+            margin-left: -2em;
         }
         
         .listnobullet a {
-            padding-top: 1em
+            padding-top: 1em;
+            height: 2.5em;
         }
         
         .lienpdf {
             list-style-type: none;
             background-image: url(../img/Bouton_Pdf_Off.svg);
             background-repeat: no-repeat;
-            margin-bottom: 2em;
-            background-position: em -0.15em;
+            margin-bottom: 1em;
             padding-left: 4.5em;
         }
         
@@ -276,15 +277,14 @@
         
         .ninfo {
             list-style-type: none;
-            background-image: url(../img/Bouton_Pdf_Off.svg);
+            background-image: url(../img/Nordinfo_Off.svg);
             background-repeat: no-repeat;
-            margin-bottom: 2em;
-            background-position: em -0.15em;
+            margin-bottom: 1em;
             padding-left: 4.5em;
         }
         
         .ninfo:hover {
-            background-image: url(../img/Bouton_Pdf_On.svg);
+            background-image: url(../img/Nordinfo_On.svg);
         }
         
         .outils li {
@@ -408,7 +408,7 @@
             /*padding: 2.4rem;*/
             overflow-y: scroll;
             -webkit-overflow-scrolling: touch;
-            background-color: rgba(236, 244, 247, 0.75);
+            background-color: rgba(23, 50, 63, 0.75);
             transition: .2s;
             backdrop-filter: blur(8px);
             -webkit-backdrop-filter: blur(8px);
@@ -519,95 +519,12 @@
         
         .page-template .header {
             top: 20px;
-            border-bottom: 0px solid #000;
+            border-bottom: 0px solid #021720;
         }
         
         .page-template .footer {
             bottom: 20px;
-            border-top: 0px solid #000;
-        }
-        /* Snackbar */
-        
-        #snackbar {
-            visibility: hidden;
-            /* Hidden by default. Visible on click */
-            min-width: 250px;
-            /* Set a default minimum width */
-            margin-left: -125px;
-            /* Divide value of min-width by 2 */
-            background-color: #595959;
-            /* Black background color */
-            color: #fff;
-            /* White text color */
-            text-align: center;
-            /* Centered text */
-            border-radius: 2px;
-            /* Rounded borders */
-            padding: 16px;
-            /* Padding */
-            position: fixed;
-            /* Sit on top of the screen */
-            z-index: 1;
-            /* Add a z-index if needed */
-            left: 50%;
-            /* Center the snackbar */
-            bottom: 300px;
-            /* 250px from the bottom */
-        }
-        /* Show the snackbar when clicking on a button (class added with JavaScript) */
-        
-        #snackbar.show {
-            visibility: visible;
-            /* Show the snackbar */
-            /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
-            However, delay the fade out process for 2.5 seconds */
-            -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-            animation: fadein 0.5s, fadeout 0.5s 2.5s;
-        }
-        /* Animations to fade the snackbar in and out */
-        
-        @-webkit-keyframes fadein {
-            from {
-                bottom: 0;
-                opacity: 0;
-            }
-            to {
-                bottom: 300px;
-                opacity: 1;
-            }
-        }
-        
-        @keyframes fadein {
-            from {
-                bottom: 0;
-                opacity: 0;
-            }
-            to {
-                bottom: 300px;
-                opacity: 1;
-            }
-        }
-        
-        @-webkit-keyframes fadeout {
-            from {
-                bottom: 300px;
-                opacity: 1;
-            }
-            to {
-                bottom: 0;
-                opacity: 0;
-            }
-        }
-        
-        @keyframes fadeout {
-            from {
-                bottom: 300px;
-                opacity: 1;
-            }
-            to {
-                bottom: 0;
-                opacity: 0;
-            }
+            border-top: 0px solid #021720;
         }
         /* BASCULES */
         
@@ -685,6 +602,15 @@
             .c-dialog__box a {
                 font-size: 0.75em;
                 display: table-cell;
+                padding: 0.5em;
+            }
+        }
+        
+        @media only screen and (max-height: 720px) {
+            .c-dialog {
+                display: block
+            }
+            .c-dialog__box a {
                 padding: 0.5em;
             }
         }

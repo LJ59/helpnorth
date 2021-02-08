@@ -5,11 +5,9 @@ body {
     page-break-before: always;
 }
 
-H1,
+#H1,
 #confort,
 #img,
-#iframe,
-.video,
 .menu,
 .menubouton,
 #header,
